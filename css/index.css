@@ -1,0 +1,61 @@
+@import url(./font.css);
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.image img{
+    height: 50px;
+    width: 50px;
+}
+.list-item{
+    list-style: none;
+    padding: auto;
+}
+.dropdown a{
+    color: black;
+    border: none;
+}
+.dropdown a:hover{
+    color: black;
+}
+.buttn{
+    background-color: green;
+    border-radius: 5px;
+    width: 250px;
+}
+.carausel{
+    height: 60vh;
+    width: 100%;
+    background-image: url(../bg.jpg);
+    background-size: cover; /* This property will make the background image cover the entire box */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; 
+  position: relative;
+}
+.content{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.content a{
+  color: black;
+  background-color: rgb(139, 139, 6);
+    border-radius: 5px;
+    text-decoration: none;
+}
+.cbtn{
+    background-color: black;
+    color: white;
+    width: 150px;
+    border-radius: 5px;
+}
+.cloc{
+    width: 150px;
+    border-radius: 1px solid grey;
+}
+.form-control{
+    height: 30px;
+}
